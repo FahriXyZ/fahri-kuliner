@@ -1,0 +1,173 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+
+}
+body{
+    background-color: beige;
+}
+.div-utama{
+    max-width: 1080px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+}
+header{
+    background-color: rgb(214, 3, 3);
+    color: white;
+    padding: 20px;
+}
+header h1{
+  margin-bottom: 8px;
+  font-size: 35px;
+
+}
+.navigasi ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: darkorange;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+
+}
+.navigasi  li{
+    float: left;
+}
+.navigasi a{
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+
+}
+.navigasi a:hover{
+    background-color:  rgb(214, 3, 3);
+    transition-duration: 1s;
+}
+.banner img{
+    margin-bottom: 15px;
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+
+.div-left {
+    padding: 5px;
+    width: 20%;
+    float: left;  
+    border: 1px solid grey; 
+}
+
+.div-left button{
+    background-color: rgb(10, 198, 10);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-top: 0%;
+   
+    
+}
+.div-left h3{
+    background-color: crimson;
+    text-align: center;
+    color: white;
+    padding: 12px;
+    margin-left: 5px;
+    
+}
+.div-main{
+    width: 55%;
+    
+    
+    float: left;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+}
+.div-main button{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+    
+
+}
+.div-main h3{
+    background-color: crimson;
+    text-align: center;
+    color: white;
+    padding: 12px;
+    
+}
+.div-main p{
+    padding-top: 5px;
+}
+.div-main img {
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+
+.div-right {
+    padding: 5px;
+    float: right;
+    width: 20%;
+    border: 1px solid grey; 
+    
+}
+
+.div-right h3{
+    background-color: crimson;
+    text-align: center;
+    color: white;
+    padding: 12px;
+    
+}
+.div-right img{
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+
+
+}
+.div-rightt{
+    border: 1px solid grey; 
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+.div-rightt a{
+    color: black;
+    font-size: 15px;
+    padding: 4px;
+    text-decoration: none;
+    display: block;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: crimson;
+   color: white;
+   padding: 15px;
+   text-align: center;
+   clear: both;
+   
+   
+}
